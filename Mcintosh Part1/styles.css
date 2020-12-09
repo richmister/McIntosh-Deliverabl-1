@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:"Roboto";
+    height:100%;
+    
+    
+}
+span{
+    color:#ff5c0f
+}
+
+h1{
+    color:#20a8b4;
+    margin-left: 20px;
+    
+}
+
+.navbar{
+   margin-top:-21px;
+   height: 220px;
+   width:100%;
+   background: #F2F2F2;
+
+}
+.Menu ul li{
+    list-style:none;
+    margin-left:-20px;
+    
+}
+.Menu ul li a{
+    text-decoration:none;
+    color:black;
+    font-size: 20px;
+    
+}
+.Menu ul li a:hover{
+    color:#ff5c0f;
+
+}
+
+.contact {
+    color:white;
+    background-color:#20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:18px;
+    width:100%;
+    text-align:left;
+}
+.contact:hover{
+    background-color:#ff5c0f;
+}
+
+.content{
+    margin-top:100px;
+    margin-left:20px;
+}
+.learn {
+    color:white;
+    background-color:#20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:18px;
+    width:100%;
+    text-align:left;
+}
+.learn:hover{
+    background-color:#ff5c0f;
+}
+
+.image img{
+    display:none;
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        margin:auto;
+       padding:auto;
+       font-family:"roboto";
+    
+    }
+    .Menu ul {
+        display:flex;
+        float:right;
+        margin-right:0px;
+        Margin-top:-40px;
+    }
+    .Menu ul li{
+        margin:0 8px;
+    }
+    .contact{
+        width:auto;
+        margin-top:-20px;
+        
+    }
+    .navbar{
+        height: 70px;
+    }
+
+    .content{
+        margin-top:200px;
+    }
+    .learn{
+        width:auto;
+    }
+    .image img{
+        display:block;
+        width:30%;
+        float:right;
+        margin-top:-200px;
+        margin-right:120px;
+    }}
